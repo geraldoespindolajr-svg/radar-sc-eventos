@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "updated_at": null,
+  "timezone": "America/Sao_Paulo",
+  "cities": [
+    "Balneário Camboriú",
+    "Itajaí",
+    "Blumenau",
+    "Joinville",
+    "Florianópolis"
+  ],
+  "events": [],
+  "coverage": {},
+  "notes": [
+    "Agenda ainda não pesquisada e publicada. O catálogo de fontes está disponível."
+  ],
+  "quality": "Apenas eventos futuros verificáveis; sem dados ilustrativos."
+}
