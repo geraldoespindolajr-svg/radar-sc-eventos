@@ -1,0 +1,2638 @@
+{
+  "metadados": {
+    "titulo": "Radar SC — Mapa de fontes",
+    "versao": "1.0",
+    "data_levantamento": "2026-11-08",
+    "fuso": "America/Sao_Paulo",
+    "cidades": [
+      "Balneário Camboriú",
+      "Itajaí",
+      "Blumenau",
+      "Joinville",
+      "Florianópolis"
+    ],
+    "escopo": "Cadastro de organizadores, instituições de formação, espaços e canais para descobrir eventos presenciais e híbridos de desenvolvimento pessoal e profissional. Não é uma agenda de eventos confirmados.",
+    "criterio_contagem": "Contagem de cadastros, não de empresas únicas nem de eventos. Campi locais têm registros próprios; fontes estaduais foram registradas uma vez. Uma entidade pode ser organizadora e anfitriã, mas recebe um tipo principal.",
+    "validacao": "Levantamento em fontes públicas oficiais, páginas institucionais e diretórios dos setores. A localização de uma fonte não certifica a qualidade do fornecedor ou a existência de inscrição aberta. Falhas de leitura e páginas históricas estão sinalizadas.",
+    "atualizacao": "Esta versão é estática, sem monitoramento automático. Não foi publicada em endereço público e não criou uma tarefa agendada.",
+    "lacunas": [
+      "Divulgação exclusiva em grupos privados, stories e listas de transmissão não foi acessada.",
+      "Pequenos organizadores e espaços sem presença pública podem não estar representados.",
+      "Não foram auditados reputação, conteúdo pedagógico, eficácia ou credenciais de cada treinamento.",
+      "Fontes regionais podem listar municípios fora do recorte; validar o endereço de cada evento."
+    ],
+    "totais": {
+      "cadastros": 101,
+      "por_cidade": {
+        "Balneário Camboriú": 15,
+        "Itajaí": 13,
+        "Blumenau": 16,
+        "Joinville": 19,
+        "Florianópolis": 18,
+        "Fontes compartilhadas": 20
+      },
+      "por_tipo": {
+        "Organizador": 63,
+        "Local": 24,
+        "Canal": 14
+      },
+      "por_situacao": {
+        "Publicações e notícias": 22,
+        "Agenda / catálogo": 40,
+        "Acesso limitado": 8,
+        "Local sem agenda localizada": 20,
+        "Diretório / busca": 11
+      }
+    }
+  },
+  "fontes": [
+    {
+      "id": "SC-001",
+      "cidade": "Balneário Camboriú",
+      "nome": "ACIBALC",
+      "tipo": "Organizador",
+      "subtipo": "Associação empresarial",
+      "temas": [
+        "Negócios",
+        "Liderança",
+        "Networking",
+        "Núcleos empresariais"
+      ],
+      "url": "https://www.acibalc.com.br/",
+      "agenda_url": "https://acibalc.com.br/eventos",
+      "situacao": "Publicações e notícias",
+      "observacao": "A seção Eventos contém registros antigos. Usar também as notícias e divulgações dos núcleos; confirmar o ano de cada edição. A entidade também atende Camboriú, município fora deste recorte.",
+      "fonte_comprovacao": "https://acibalc.com.br/eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-002",
+      "cidade": "Balneário Camboriú",
+      "nome": "CDL Balneário Camboriú",
+      "tipo": "Organizador",
+      "subtipo": "Associação empresarial",
+      "temas": [
+        "Vendas",
+        "Gestão",
+        "Atendimento",
+        "Capacitação"
+      ],
+      "url": "https://www.cdlbc.com.br/portal/",
+      "agenda_url": "https://www.cdlbc.com.br/portal/category/cursos-e-eventos/",
+      "situacao": "Publicações e notícias",
+      "observacao": "Página de publicações de cursos e eventos, não um calendário exclusivamente futuro. Há estrutura de auditório; conferir data, público e condições.",
+      "fonte_comprovacao": "https://www.cdlbc.com.br/portal/category/cursos-e-eventos/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-003",
+      "cidade": "Balneário Camboriú",
+      "nome": "UDESC — CESFI",
+      "tipo": "Organizador",
+      "subtipo": "Universidade",
+      "temas": [
+        "Inovação",
+        "Educação",
+        "Extensão",
+        "Carreira"
+      ],
+      "url": "https://www.udesc.br/cesfi",
+      "agenda_url": "https://www.udesc.br/cesfi/eventos",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Combinar a página de eventos com ações de extensão. Verificar quais atividades são abertas à comunidade externa.",
+      "fonte_comprovacao": "https://www.udesc.br/cesfi/eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-004",
+      "cidade": "Balneário Camboriú",
+      "nome": "Univali — campus Balneário Camboriú",
+      "tipo": "Organizador",
+      "subtipo": "Universidade",
+      "temas": [
+        "Negócios",
+        "Turismo",
+        "Gastronomia",
+        "Extensão"
+      ],
+      "url": "https://portal.univali.br/eventos/10203",
+      "agenda_url": "https://portal.univali.br/eventos/",
+      "situacao": "Acesso limitado",
+      "observacao": "Atuação do campus confirmada em página institucional de evento. O índice geral de eventos apresentou timeout; consultar notícias e páginas individuais. Agenda compartilhada com outros campi.",
+      "fonte_comprovacao": "https://www.univali.br/escolas/escola-de-negocios-educacao-e-comunicacao/forum-cientifico-de-gastronomia-turismo-e-hotelaria/Paginas/default.aspx",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-005",
+      "cidade": "Balneário Camboriú",
+      "nome": "Uniavan",
+      "tipo": "Organizador",
+      "subtipo": "Instituição de ensino",
+      "temas": [
+        "Carreira",
+        "Extensão",
+        "Negócios",
+        "Saúde"
+      ],
+      "url": "https://uniavan.edu.br/",
+      "agenda_url": "https://uniavan.edu.br/eventos/",
+      "situacao": "Publicações e notícias",
+      "observacao": "A página reúne notícias de eventos, inclusive realizados. Buscar turmas de extensão e confirmar que a atividade ocorrerá em Balneário Camboriú.",
+      "fonte_comprovacao": "https://uniavan.edu.br/eventos/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-006",
+      "cidade": "Balneário Camboriú",
+      "nome": "Febracis Balneário Camboriú",
+      "tipo": "Organizador",
+      "subtipo": "Empresa de treinamento",
+      "temas": [
+        "Liderança",
+        "Comunicação",
+        "Desenvolvimento pessoal",
+        "Vendas"
+      ],
+      "url": "https://www.febracisbc.com.br/",
+      "agenda_url": "",
+      "situacao": "Publicações e notícias",
+      "observacao": "Fonte comercial de cursos e imersões. Confirmar turma, investimento e conteúdo; a inclusão não valida promessas de resultado ou alegações terapêuticas.",
+      "fonte_comprovacao": "https://www.febracisbc.com.br/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-007",
+      "cidade": "Balneário Camboriú",
+      "nome": "Vox2you — Balneário Camboriú",
+      "tipo": "Organizador",
+      "subtipo": "Escola de oratória",
+      "temas": [
+        "Oratória",
+        "Comunicação",
+        "Apresentações"
+      ],
+      "url": "https://vox2you.com.br/unidades/balneario-camboriu/",
+      "agenda_url": "",
+      "situacao": "Publicações e notícias",
+      "observacao": "Página oficial da unidade. Buscar aulas abertas, cursos e workshops; não foi confirmado um calendário público completo de turmas.",
+      "fonte_comprovacao": "https://vox2you.com.br/unidades/balneario-camboriu/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-008",
+      "cidade": "Balneário Camboriú",
+      "nome": "Nova Acrópole — Balneário Camboriú",
+      "tipo": "Organizador",
+      "subtipo": "Organização cultural",
+      "temas": [
+        "Filosofia",
+        "Cultura",
+        "Autoconhecimento",
+        "Voluntariado"
+      ],
+      "url": "https://nova-acropole.org.br/unidades/balneariocamboriu/",
+      "agenda_url": "https://nova-acropole.org.br/unidades/balneariocamboriu/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "A página da unidade reúne agenda e notícias. Confirmar as datas e distinguir cursos regulares de palestras abertas. Inclusão informativa, sem endosso filosófico.",
+      "fonte_comprovacao": "https://nova-acropole.org.br/unidades/balneariocamboriu/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-009",
+      "cidade": "Balneário Camboriú",
+      "nome": "Fundação Cultural de Balneário Camboriú",
+      "tipo": "Organizador",
+      "subtipo": "Instituição pública",
+      "temas": [
+        "Escrita",
+        "Cultura",
+        "Criatividade",
+        "Oficinas"
+      ],
+      "url": "https://culturabc.com.br/",
+      "agenda_url": "https://culturabc.com.br/oficinas-gratuitas/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Fonte para oficinas culturais gratuitas. Conferir vigência, faixa etária, inscrições e locais, como a biblioteca e os espaços culturais municipais.",
+      "fonte_comprovacao": "https://culturabc.com.br/oficinas-gratuitas/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-010",
+      "cidade": "Balneário Camboriú",
+      "nome": "Expocentro Balneário Camboriú",
+      "tipo": "Local",
+      "subtipo": "Centro de eventos",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.expocentrobc.com.br/",
+      "agenda_url": "https://www.expocentrobc.com.br/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Agenda pública no site. Filtrar congressos, feiras de negócios, palestras e capacitações, sem trazer automaticamente shows e entretenimento.",
+      "fonte_comprovacao": "https://www.expocentrobc.com.br/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-011",
+      "cidade": "Balneário Camboriú",
+      "nome": "Hotel Sibara Spa & Convenções",
+      "tipo": "Local",
+      "subtipo": "Hotel e centro de convenções",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://sibaraflathotel.com.br/eventos.php",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Estrutura para eventos identificada. Não foi localizada uma agenda pública completa; cruzar o nome do local com divulgações dos organizadores.",
+      "fonte_comprovacao": "https://sibaraflathotel.com.br/eventos.php",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-012",
+      "cidade": "Balneário Camboriú",
+      "nome": "Marambaia Hotel e Convenções",
+      "tipo": "Local",
+      "subtipo": "Hotel e centro de convenções",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.marambaia.com.br/eventos",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Estrutura para eventos identificada. Não foi localizada uma agenda pública completa; cruzar o nome do local com divulgações dos organizadores.",
+      "fonte_comprovacao": "https://www.marambaia.com.br/eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-013",
+      "cidade": "Balneário Camboriú",
+      "nome": "Mercure Camboriú Internacional",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.visitebalneariocamboriu.com.br/mercure-hotel",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Espaço identificado no Convention Bureau. O link é a ficha do empreendimento no diretório; não foi confirmada agenda pública de eventos.",
+      "fonte_comprovacao": "https://www.visitebalneariocamboriu.com.br/mercure-hotel",
+      "tipo_comprovacao": "Fonte de referência",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-014",
+      "cidade": "Balneário Camboriú",
+      "nome": "Hotel D’Sintra",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.hoteldsintra.com.br/sala-para-eventos-em-balneario-camboriu",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Estrutura para eventos identificada. Não foi localizada uma agenda pública completa; cruzar o nome do local com divulgações dos organizadores.",
+      "fonte_comprovacao": "https://www.hoteldsintra.com.br/sala-para-eventos-em-balneario-camboriu",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-015",
+      "cidade": "Balneário Camboriú",
+      "nome": "BC Convention / Movimenta BC",
+      "tipo": "Canal",
+      "subtipo": "Agenda e diretório local",
+      "temas": [
+        "Congressos",
+        "Capacitação",
+        "Feiras",
+        "Locais e organizadores"
+      ],
+      "url": "https://www.movimentabc.com.br/agenda-eventos",
+      "agenda_url": "https://www.movimentabc.com.br/agenda-eventos",
+      "situacao": "Diretório / busca",
+      "observacao": "Usar a agenda e o diretório de espaços do BC Convention. Há divulgações regionais: conferir o município do endereço. Os canais foram agrupados para evitar dupla contagem.",
+      "fonte_comprovacao": "https://www.visitebalneariocamboriu.com.br/espaco-para-eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-016",
+      "cidade": "Itajaí",
+      "nome": "ACII / Universidade de Negócios / núcleos",
+      "tipo": "Organizador",
+      "subtipo": "Associação empresarial",
+      "temas": [
+        "Gestão",
+        "Vendas",
+        "Tecnologia",
+        "Networking"
+      ],
+      "url": "https://www.acii.com.br/",
+      "agenda_url": "https://www.acii.com.br/solucoes/universidade-de-negocios-acii/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Usar a agenda da página inicial e a Universidade de Negócios. /eventos-realizados/ é histórico, não prova de evento futuro. Núcleos, incluindo tecnologia, ficam no mesmo cadastro.",
+      "fonte_comprovacao": "https://www.acii.com.br/solucoes/universidade-de-negocios-acii/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Itajaí"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-017",
+      "cidade": "Itajaí",
+      "nome": "CDL Itajaí",
+      "tipo": "Organizador",
+      "subtipo": "Associação empresarial",
+      "temas": [
+        "Comércio",
+        "Vendas",
+        "Finanças",
+        "Networking"
+      ],
+      "url": "https://cdlitajai.com.br/",
+      "agenda_url": "https://cdlitajai.com.br/informativo/?cat=11",
+      "situacao": "Publicações e notícias",
+      "observacao": "Publicações de capacitações e encontros. Conferir datas, organizador de cada atividade e condições para não associados.",
+      "fonte_comprovacao": "https://cdlitajai.com.br/informativo/?cat=11",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Itajaí"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-018",
+      "cidade": "Itajaí",
+      "nome": "Elume Park",
+      "tipo": "Organizador",
+      "subtipo": "Centro de inovação e espaço",
+      "temas": [
+        "Tecnologia",
+        "Empreendedorismo",
+        "Inovação",
+        "Networking"
+      ],
+      "url": "https://elumepark.com.br/",
+      "agenda_url": "https://elumepark.com.br/eventos",
+      "situacao": "Publicações e notícias",
+      "observacao": "A agenda contém registros antigos e divulgação de atividades de outras cidades. Conferir ano e endereço; não atribuir todos os eventos ao próprio Elume.",
+      "fonte_comprovacao": "https://elumepark.com.br/eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Itajaí"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-019",
+      "cidade": "Itajaí",
+      "nome": "Univali — campus Itajaí",
+      "tipo": "Organizador",
+      "subtipo": "Universidade",
+      "temas": [
+        "Extensão",
+        "Carreira",
+        "Negócios",
+        "Saúde",
+        "Tecnologia"
+      ],
+      "url": "https://portal.univali.br/eventos/10773",
+      "agenda_url": "https://portal.univali.br/eventos/",
+      "situacao": "Acesso limitado",
+      "observacao": "Campus e atuação em eventos confirmados em página institucional. O índice geral apresentou timeout. Consultar páginas individuais e notícias; confirmar público externo.",
+      "fonte_comprovacao": "https://portal.univali.br/eventos/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Itajaí"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-020",
+      "cidade": "Itajaí",
+      "nome": "Qualifica+ Itajaí",
+      "tipo": "Organizador",
+      "subtipo": "Programa público de formação",
+      "temas": [
+        "Qualificação profissional",
+        "Tecnologia",
+        "Carreira",
+        "Educação"
+      ],
+      "url": "https://cursos.itajai.sc.gov.br/",
+      "agenda_url": "https://cursos.itajai.sc.gov.br/capacitacao/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Portal municipal de capacitações. Priorizar turmas presenciais; ler os editais de elegibilidade. A seção Formação Aberta também reúne oportunidades online de parceiros.",
+      "fonte_comprovacao": "https://cursos.itajai.sc.gov.br/capacitacao/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Itajaí"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-021",
+      "cidade": "Itajaí",
+      "nome": "Actus Estratégia em Eventos",
+      "tipo": "Organizador",
+      "subtipo": "Organizadora de eventos",
+      "temas": [
+        "Feiras",
+        "Eventos corporativos",
+        "Inovação",
+        "Congressos"
+      ],
+      "url": "https://actuseventos.com.br/",
+      "agenda_url": "",
+      "situacao": "Publicações e notícias",
+      "observacao": "Empresa com atuação e base identificadas no Elume Park. Atua na produção de eventos de clientes; não presumir que todos sejam abertos ao público.",
+      "fonte_comprovacao": "https://itajaiconvention.com.br/associados/actus-estrategia-em-eventos/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Itajaí"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-022",
+      "cidade": "Itajaí",
+      "nome": "Nova Acrópole — Itajaí",
+      "tipo": "Organizador",
+      "subtipo": "Organização cultural",
+      "temas": [
+        "Filosofia",
+        "Autoconhecimento",
+        "Cultura",
+        "Voluntariado"
+      ],
+      "url": "https://nova-acropole.org.br/unidades/itajai/",
+      "agenda_url": "https://nova-acropole.org.br/unidades/itajai/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Consultar a agenda da unidade e confirmar a data de cada atividade. Inclusão informativa, sem endosso filosófico.",
+      "fonte_comprovacao": "https://nova-acropole.org.br/unidades/itajai/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Itajaí"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-023",
+      "cidade": "Itajaí",
+      "nome": "Congresso Entre Nós — canal do evento",
+      "tipo": "Canal",
+      "subtipo": "Evento recorrente",
+      "temas": [
+        "Gastronomia",
+        "Empreendedorismo",
+        "Turismo",
+        "Aprendizado"
+      ],
+      "url": "https://lp.entrenosgastronomia.com/?ficha=congresso",
+      "agenda_url": "https://lp.entrenosgastronomia.com/?ficha=congresso",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Canal do congresso no Centreventos. A página é de uma edição específica; acompanhar novas edições, sem reutilizar automaticamente datas antigas.",
+      "fonte_comprovacao": "https://lp.entrenosgastronomia.com/?ficha=congresso",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Itajaí"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-024",
+      "cidade": "Itajaí",
+      "nome": "Centreventos Governador Luiz Henrique da Silveira",
+      "tipo": "Local",
+      "subtipo": "Centro de eventos",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://itajaiconvention.com.br/eventos/",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Local confirmado por organizador de congresso e pelo portal municipal. Monitorar a agenda do Convention e os organizadores; calendário próprio completo não confirmado.",
+      "fonte_comprovacao": "https://lp.entrenosgastronomia.com/?ficha=congresso",
+      "tipo_comprovacao": "Fonte de referência",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Itajaí"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-025",
+      "cidade": "Itajaí",
+      "nome": "Sandri Palace Hotel",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.hotelsandri.com.br/",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Estrutura para eventos identificada. Não foi localizada uma agenda pública completa; cruzar o nome do local com divulgações dos organizadores.",
+      "fonte_comprovacao": "https://itajaiconvention.com.br/associados/sandri-palace-hotel/",
+      "tipo_comprovacao": "Fonte de referência",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Itajaí"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-026",
+      "cidade": "Itajaí",
+      "nome": "Mercure Itajaí Navegantes",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://itajaiconvention.com.br/associados/mercury-atrio-hoteis-s-a/",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Apesar de Navegantes no nome comercial, a ficha do Convention informa endereço em Itajaí. Não foi confirmada agenda pública; cruzar o nome com anúncios de organizadores.",
+      "fonte_comprovacao": "https://itajaiconvention.com.br/associados/mercury-atrio-hoteis-s-a/",
+      "tipo_comprovacao": "Fonte de referência",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Itajaí"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-027",
+      "cidade": "Itajaí",
+      "nome": "Novotel Itajaí",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://all.accor.com/hotel/9916/index.pt-br.shtml",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Estrutura para eventos identificada. Não foi localizada uma agenda pública completa; cruzar o nome do local com divulgações dos organizadores.",
+      "fonte_comprovacao": "https://all.accor.com/hotel/9916/index.pt.shtml",
+      "tipo_comprovacao": "Fonte de referência",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Itajaí"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-028",
+      "cidade": "Itajaí",
+      "nome": "Itajaí Convention Bureau",
+      "tipo": "Canal",
+      "subtipo": "Agenda e diretório local",
+      "temas": [
+        "Congressos",
+        "Feiras",
+        "Palestras",
+        "Fornecedores e locais"
+      ],
+      "url": "https://itajaiconvention.com.br/eventos/",
+      "agenda_url": "https://itajaiconvention.com.br/eventos/",
+      "situacao": "Diretório / busca",
+      "observacao": "Usar o calendário e o cadastro de fornecedores para descobrir novas produtoras. Eventos e espaços são registros distintos; validar o organizador de cada oportunidade.",
+      "fonte_comprovacao": "https://itajaiconvention.com.br/categorias-de-associados/fornecedores-para-eventos/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Itajaí"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-029",
+      "cidade": "Blumenau",
+      "nome": "ACIB Blumenau",
+      "tipo": "Organizador",
+      "subtipo": "Associação empresarial",
+      "temas": [
+        "Negócios",
+        "Gestão",
+        "Liderança",
+        "Networking"
+      ],
+      "url": "https://www.acibblumenau.com.br/",
+      "agenda_url": "https://www.acibblumenau.com.br/agenda/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Agenda própria de cursos, palestras e encontros. Núcleos e ações empresariais foram reunidos neste cadastro.",
+      "fonte_comprovacao": "https://www.acibblumenau.com.br/agenda/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-030",
+      "cidade": "Blumenau",
+      "nome": "CDL Blumenau",
+      "tipo": "Organizador",
+      "subtipo": "Associação empresarial",
+      "temas": [
+        "Vendas",
+        "Atendimento",
+        "Gestão",
+        "Comunicação"
+      ],
+      "url": "https://www.cdlblumenau.com.br/",
+      "agenda_url": "https://www.cdlblumenau.com.br/cursos",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Catálogo de cursos aberto à consulta. Condições e valores podem variar para associados e não associados; conferir cada turma.",
+      "fonte_comprovacao": "https://www.cdlblumenau.com.br/cursos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-031",
+      "cidade": "Blumenau",
+      "nome": "BLUSOFT / programas de formação",
+      "tipo": "Organizador",
+      "subtipo": "Entidade de tecnologia",
+      "temas": [
+        "Tecnologia",
+        "Inovação",
+        "Carreira",
+        "Programação"
+      ],
+      "url": "https://www.blusoft.org.br/",
+      "agenda_url": "https://www.blusoft.org.br/eventos",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Monitorar eventos e programas de formação. Algumas iniciativas alcançam outras cidades; confirmar a turma e seus requisitos.",
+      "fonte_comprovacao": "https://www.blusoft.org.br/eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-032",
+      "cidade": "Blumenau",
+      "nome": "AMPE Blumenau",
+      "tipo": "Organizador",
+      "subtipo": "Associação empresarial",
+      "temas": [
+        "Empreendedorismo",
+        "Gestão",
+        "Networking",
+        "Pequenos negócios"
+      ],
+      "url": "https://ampeblumenau.com.br/",
+      "agenda_url": "https://ampeblumenau.com.br/evento/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Consultar eventos da associação e dos núcleos; verificar inscrição, público e preço.",
+      "fonte_comprovacao": "https://ampeblumenau.com.br/evento/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-033",
+      "cidade": "Blumenau",
+      "nome": "Instituto Gene / Centro de Inovação Blumenau",
+      "tipo": "Organizador",
+      "subtipo": "Centro de inovação e espaço",
+      "temas": [
+        "Startups",
+        "Inovação",
+        "Empreendedorismo",
+        "Mentorias"
+      ],
+      "url": "https://institutogene.org.br/",
+      "agenda_url": "https://institutogene.org.br/index.php/eventos/",
+      "situacao": "Publicações e notícias",
+      "observacao": "A página Eventos descreve o espaço para locação, não uma agenda completa. Acompanhar notícias e programas no site do Instituto Gene.",
+      "fonte_comprovacao": "https://institutogene.org.br/index.php/eventos/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-034",
+      "cidade": "Blumenau",
+      "nome": "FURB",
+      "tipo": "Organizador",
+      "subtipo": "Universidade",
+      "temas": [
+        "Extensão",
+        "Cursos de curta duração",
+        "Negócios",
+        "Cultura"
+      ],
+      "url": "https://www.furb.br/pt/cursos",
+      "agenda_url": "https://www.furb.br/pt/cursos",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Filtrar cursos de curta duração e extensão. Notícias institucionais complementam o catálogo; verificar inscrições e público externo.",
+      "fonte_comprovacao": "https://www.furb.br/pt/cursos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-035",
+      "cidade": "Blumenau",
+      "nome": "Fundação Fritz Müller",
+      "tipo": "Organizador",
+      "subtipo": "Escola de negócios",
+      "temas": [
+        "Liderança",
+        "Oratória",
+        "Gestão",
+        "Vendas",
+        "Finanças"
+      ],
+      "url": "https://www.fundacaofritzmuller.com.br/",
+      "agenda_url": "https://www.fundacaofritzmuller.com.br/cursos/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Catálogo com filtros por cidade e modalidade. Além de Blumenau, pode divulgar turmas em Joinville e Florianópolis; cadastrar o evento na cidade de realização.",
+      "fonte_comprovacao": "https://www.fundacaofritzmuller.com.br/cursos/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-036",
+      "cidade": "Blumenau",
+      "nome": "UFSC — campus Blumenau",
+      "tipo": "Organizador",
+      "subtipo": "Universidade",
+      "temas": [
+        "Extensão",
+        "Ciência",
+        "Tecnologia",
+        "Educação"
+      ],
+      "url": "https://blumenau.ufsc.br/",
+      "agenda_url": "https://blumenau.ufsc.br/tag/extensao/",
+      "situacao": "Publicações e notícias",
+      "observacao": "Notícias de extensão e eventos do campus. Distinguir anúncio de inscrição de cobertura de atividade já realizada.",
+      "fonte_comprovacao": "https://blumenau.ufsc.br/tag/extensao/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-037",
+      "cidade": "Blumenau",
+      "nome": "Nova Acrópole — Blumenau",
+      "tipo": "Organizador",
+      "subtipo": "Organização cultural",
+      "temas": [
+        "Filosofia",
+        "Autoconhecimento",
+        "Cultura",
+        "Voluntariado"
+      ],
+      "url": "https://nova-acropole.org.br/unidades/blumenau/",
+      "agenda_url": "https://nova-acropole.org.br/unidades/blumenau/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Agenda da unidade; a ausência de atividades abertas na página não prova ausência de programação. Confirmar novas datas. Sem endosso filosófico.",
+      "fonte_comprovacao": "https://nova-acropole.org.br/unidades/blumenau/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-038",
+      "cidade": "Blumenau",
+      "nome": "Febratex Group — eventos em Blumenau",
+      "tipo": "Organizador",
+      "subtipo": "Organizadora de feiras",
+      "temas": [
+        "Negócios",
+        "Indústria",
+        "Inovação",
+        "Sustentabilidade"
+      ],
+      "url": "https://febratexgroup.com.br/noticias/",
+      "agenda_url": "https://febratexgroup.com.br/noticias/febratex-group-anuncia-agenda-de-feiras-para-2026/",
+      "situacao": "Publicações e notícias",
+      "observacao": "Organizadora de eventos setoriais, não sediada necessariamente nesta cidade. Filtrar os realizados em Blumenau e confirmar a edição futura; não repetir a agenda anual antiga.",
+      "fonte_comprovacao": "https://febratexgroup.com.br/noticias/febratex-group-anuncia-agenda-de-feiras-para-2026/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-039",
+      "cidade": "Blumenau",
+      "nome": "Blumenau Qualifica",
+      "tipo": "Organizador",
+      "subtipo": "Programa público de formação",
+      "temas": [
+        "Qualificação profissional",
+        "Carreira",
+        "Capacitação"
+      ],
+      "url": "https://blumenau.sc.gov.br/secao/noticias/130130",
+      "agenda_url": "",
+      "situacao": "Publicações e notícias",
+      "observacao": "Programa e plataforma de oportunidades identificados em notícia municipal. A notícia é a fonte de referência; conferir cursos atuais no canal indicado pela prefeitura.",
+      "fonte_comprovacao": "https://blumenau.sc.gov.br/secao/noticias/130130",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-040",
+      "cidade": "Blumenau",
+      "nome": "Parque Vila Germânica",
+      "tipo": "Local",
+      "subtipo": "Centro de eventos",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.parquevilagermanica.com.br/",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Local de grandes feiras e eventos. Cruzar com a agenda do Blumenau Convention e páginas dos organizadores; não inferir acesso a partir da existência de reserva.",
+      "fonte_comprovacao": "https://www.parquevilagermanica.com.br/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-041",
+      "cidade": "Blumenau",
+      "nome": "Quality Hotel Blumenau",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.letsatlantica.com.br/hotel/quality-hotel-blumenau/eventos",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Estrutura para eventos identificada. Não foi localizada uma agenda pública completa; cruzar o nome do local com divulgações dos organizadores.",
+      "fonte_comprovacao": "https://www.letsatlantica.com.br/hotel/quality-hotel-blumenau/eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-042",
+      "cidade": "Blumenau",
+      "nome": "Himmelblau Palace Hotel",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.himmelblau.com.br/",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Estrutura para eventos identificada. Não foi localizada uma agenda pública completa; cruzar o nome do local com divulgações dos organizadores.",
+      "fonte_comprovacao": "https://www.himmelblau.com.br/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-043",
+      "cidade": "Blumenau",
+      "nome": "Plaza Blumenau Hotel",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.plazahoteis.com.br/blumenau/pt-br/eventos/",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Estrutura para eventos identificada. Não foi localizada uma agenda pública completa; cruzar o nome do local com divulgações dos organizadores.",
+      "fonte_comprovacao": "https://www.plazahoteis.com.br/blumenau/pt-br/eventos/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-044",
+      "cidade": "Blumenau",
+      "nome": "Blumenau Convention Bureau",
+      "tipo": "Canal",
+      "subtipo": "Agenda e diretório local",
+      "temas": [
+        "Congressos",
+        "Feiras",
+        "Networking",
+        "Organizadores e locais"
+      ],
+      "url": "https://www.blumenau.com.br/eventos",
+      "agenda_url": "https://www.blumenau.com.br/eventos",
+      "situacao": "Diretório / busca",
+      "observacao": "Calendário útil para encontrar organizador e local. Filtrar datas futuras, pois o calendário também preserva eventos realizados.",
+      "fonte_comprovacao": "https://www.blumenau.com.br/associados",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Blumenau"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-045",
+      "cidade": "Joinville",
+      "nome": "ACIJ",
+      "tipo": "Organizador",
+      "subtipo": "Associação empresarial",
+      "temas": [
+        "Liderança",
+        "Oratória",
+        "Produtividade",
+        "Gestão",
+        "Networking"
+      ],
+      "url": "https://www.acij.com.br/",
+      "agenda_url": "https://www.acij.com.br/pagina-agenda/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Agenda própria com cursos, oficinas e palestras. A entidade também oferece salas; isso não torna toda reunião um evento aberto.",
+      "fonte_comprovacao": "https://www.acij.com.br/pagina-agenda/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-046",
+      "cidade": "Joinville",
+      "nome": "AJORPEME",
+      "tipo": "Organizador",
+      "subtipo": "Associação empresarial",
+      "temas": [
+        "Empreendedorismo",
+        "Vendas",
+        "Gestão",
+        "Networking"
+      ],
+      "url": "https://ajorpeme.com.br/",
+      "agenda_url": "https://ajorpeme.com.br/agenda/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Consultar a agenda de eventos, capacitações e núcleos. Conferir condições de acesso de não associados.",
+      "fonte_comprovacao": "https://ajorpeme.com.br/agenda/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-047",
+      "cidade": "Joinville",
+      "nome": "CDL Joinville",
+      "tipo": "Organizador",
+      "subtipo": "Associação empresarial",
+      "temas": [
+        "Comércio",
+        "Networking",
+        "Gestão",
+        "Capacitação"
+      ],
+      "url": "https://cdljoinville.com.br/",
+      "agenda_url": "https://cdljoinville.com.br/events/",
+      "situacao": "Publicações e notícias",
+      "observacao": "A seção de eventos consultada não exibiu programação, mas há atividades da entidade divulgadas na Sympla. Cruzar site, notícias e perfil do organizador.",
+      "fonte_comprovacao": "https://cdljoinville.com.br/events/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-048",
+      "cidade": "Joinville",
+      "nome": "Ágora Tech Park",
+      "tipo": "Organizador",
+      "subtipo": "Parque tecnológico e espaço",
+      "temas": [
+        "Tecnologia",
+        "Inovação",
+        "Empreendedorismo",
+        "Networking"
+      ],
+      "url": "https://agoratechpark.com.br/",
+      "agenda_url": "https://agoratechpark.com.br/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "O site divulga eventos; alguns são explicitamente fechados. Confirmar elegibilidade e não confundir a presença na agenda com acesso livre.",
+      "fonte_comprovacao": "https://agoratechpark.com.br/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-049",
+      "cidade": "Joinville",
+      "nome": "Softville",
+      "tipo": "Organizador",
+      "subtipo": "Organização de inovação",
+      "temas": [
+        "Startups",
+        "Indústria",
+        "Tecnologia",
+        "Networking"
+      ],
+      "url": "https://softville.org.br/conexao-indtech/",
+      "agenda_url": "",
+      "situacao": "Publicações e notícias",
+      "observacao": "Canal oficial do Conexão Indtech e de ações do ecossistema. Verificar a edição e acompanhar as divulgações da organização; não assumir recorrência com datas fixas.",
+      "fonte_comprovacao": "https://softville.org.br/conexao-indtech/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-050",
+      "cidade": "Joinville",
+      "nome": "Inovaparq",
+      "tipo": "Organizador",
+      "subtipo": "Parque de inovação",
+      "temas": [
+        "Empreendedorismo",
+        "Inovação",
+        "Carreira",
+        "Tecnologia"
+      ],
+      "url": "https://inovaparq.com.br/sobre/",
+      "agenda_url": "https://inovaparq.com.br/cria-te/",
+      "situacao": "Publicações e notícias",
+      "observacao": "Projetos e atividades de inovação, não agenda única garantida. Consultar também as notícias e inscrições dos programas.",
+      "fonte_comprovacao": "https://inovaparq.com.br/cria-te/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-051",
+      "cidade": "Joinville",
+      "nome": "Univille",
+      "tipo": "Organizador",
+      "subtipo": "Universidade",
+      "temas": [
+        "Extensão",
+        "Ciência",
+        "Carreira",
+        "Negócios",
+        "Saúde"
+      ],
+      "url": "https://eventos.univille.edu.br/evento/index",
+      "agenda_url": "https://eventos.univille.edu.br/evento/index",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Portal de eventos e inscrições. Confirmar local físico, cidade e possibilidade de participação do público externo.",
+      "fonte_comprovacao": "https://eventos.univille.edu.br/evento/index",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-052",
+      "cidade": "Joinville",
+      "nome": "Católica de Santa Catarina — Joinville",
+      "tipo": "Organizador",
+      "subtipo": "Instituição de ensino",
+      "temas": [
+        "Carreira",
+        "Extensão",
+        "Negócios",
+        "Tecnologia"
+      ],
+      "url": "https://www.catolicasc.org.br/eventos/",
+      "agenda_url": "https://www.catolicasc.org.br/eventos/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Agenda institucional com mais de uma unidade. Incluir somente atividades cujo endereço esteja em Joinville.",
+      "fonte_comprovacao": "https://www.catolicasc.org.br/eventos/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-053",
+      "cidade": "Joinville",
+      "nome": "UFSC — campus Joinville",
+      "tipo": "Organizador",
+      "subtipo": "Universidade",
+      "temas": [
+        "Extensão",
+        "Engenharia",
+        "Tecnologia",
+        "Carreira"
+      ],
+      "url": "https://joinville.ufsc.br/extensao/",
+      "agenda_url": "",
+      "situacao": "Publicações e notícias",
+      "observacao": "Fonte institucional para projetos e eventos de extensão. Confirmar inscrições e público-alvo em cada atividade.",
+      "fonte_comprovacao": "https://joinville.ufsc.br/extensao/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-054",
+      "cidade": "Joinville",
+      "nome": "Sustentare Escola de Negócios",
+      "tipo": "Organizador",
+      "subtipo": "Escola de negócios",
+      "temas": [
+        "Gestão",
+        "Liderança",
+        "Carreira",
+        "Marketing",
+        "Pessoas"
+      ],
+      "url": "https://www.sustentare.net/site/",
+      "agenda_url": "https://www.sustentare.net/site/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "O site apresenta agenda e cursos. Priorizar capacitações, encontros e aulas abertas, distinguindo-os de programas longos de graduação ou MBA.",
+      "fonte_comprovacao": "https://www.sustentare.net/site/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-055",
+      "cidade": "Joinville",
+      "nome": "Nova Acrópole — Joinville",
+      "tipo": "Organizador",
+      "subtipo": "Organização cultural",
+      "temas": [
+        "Filosofia",
+        "Autoconhecimento",
+        "Cultura",
+        "Voluntariado"
+      ],
+      "url": "https://nova-acropole.org.br/unidades/joinville/",
+      "agenda_url": "https://nova-acropole.org.br/unidades/joinville/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Consultar a agenda da unidade e conferir o ano das publicações. Inclusão informativa, sem endosso filosófico.",
+      "fonte_comprovacao": "https://nova-acropole.org.br/unidades/joinville/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-056",
+      "cidade": "Joinville",
+      "nome": "ExpoGestão — canal do evento",
+      "tipo": "Canal",
+      "subtipo": "Evento recorrente",
+      "temas": [
+        "Liderança",
+        "Gestão",
+        "Estratégia",
+        "Networking"
+      ],
+      "url": "https://expogestao.com.br/faq/",
+      "agenda_url": "https://expogestao.com.br/faq/",
+      "situacao": "Publicações e notícias",
+      "observacao": "Canal de uma conferência recorrente. Confirmar edição, datas e local no site oficial; não supor que as datas de 2026 valem para a próxima edição.",
+      "fonte_comprovacao": "https://expogestao.com.br/faq/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-057",
+      "cidade": "Joinville",
+      "nome": "Expoville",
+      "tipo": "Local",
+      "subtipo": "Centro de eventos",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.expoville.com.br/",
+      "agenda_url": "https://www.expoville.com.br/eventos",
+      "situacao": "Acesso limitado",
+      "observacao": "A agenda foi localizada, mas a extração exibiu elementos dinâmicos sem os eventos completos. Usar o Convention Bureau e o site do organizador como apoio.",
+      "fonte_comprovacao": "https://www.expoville.com.br/eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-058",
+      "cidade": "Joinville",
+      "nome": "Centreventos Cau Hansen",
+      "tipo": "Local",
+      "subtipo": "Complexo de eventos",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.centreventos.com.br/",
+      "agenda_url": "",
+      "situacao": "Acesso limitado",
+      "observacao": "O site contém uma seção de agenda, porém a consulta exibiu um componente de calendário sem programação utilizável. Usar organizadores e o Convention como apoio.",
+      "fonte_comprovacao": "https://www.centreventos.com.br/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-059",
+      "cidade": "Joinville",
+      "nome": "Bourbon Joinville Convention Hotel",
+      "tipo": "Local",
+      "subtipo": "Hotel e centro de convenções",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.bourboneventos.com.br/hoteis/bourbon-joinville-convention-hotel",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Estrutura para eventos identificada. Não foi localizada uma agenda pública completa; cruzar o nome do local com divulgações dos organizadores.",
+      "fonte_comprovacao": "https://www.bourboneventos.com.br/hoteis/bourbon-joinville-convention-hotel",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-060",
+      "cidade": "Joinville",
+      "nome": "Blue Tree Towers Joinville",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.bluetree.com.br/pt-br/hotel/blue-tree-towers-joinville/eventos-joinville",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Estrutura para eventos identificada. Não foi localizada uma agenda pública completa; cruzar o nome do local com divulgações dos organizadores.",
+      "fonte_comprovacao": "https://www.bluetree.com.br/pt-br/hotel/blue-tree-towers-joinville/eventos-joinville",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-061",
+      "cidade": "Joinville",
+      "nome": "Comfort Hotel Joinville",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.visitejoinville.com.br/locais-para-eventos",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Espaço listado no diretório do Convention Bureau. A ficha do diretório é a referência; agenda própria não confirmada.",
+      "fonte_comprovacao": "https://www.visitejoinville.com.br/locais-para-eventos",
+      "tipo_comprovacao": "Fonte de referência",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-062",
+      "cidade": "Joinville",
+      "nome": "Naalt Hotel Joinville",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.visitejoinville.com.br/locais-para-eventos",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Espaço listado no diretório do Convention Bureau. Conferir o anúncio do organizador para identificar cursos e encontros abertos.",
+      "fonte_comprovacao": "https://www.visitejoinville.com.br/locais-para-eventos",
+      "tipo_comprovacao": "Fonte de referência",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-063",
+      "cidade": "Joinville",
+      "nome": "Joinville e Região Convention & Visitors Bureau",
+      "tipo": "Canal",
+      "subtipo": "Agenda e diretório local",
+      "temas": [
+        "Congressos",
+        "Feiras",
+        "Capacitação",
+        "Locais e fornecedores"
+      ],
+      "url": "https://www.visitejoinville.com.br/agenda-de-eventos",
+      "agenda_url": "https://www.visitejoinville.com.br/agenda-de-eventos",
+      "situacao": "Diretório / busca",
+      "observacao": "Usar agenda e diretório de locais. O diretório também inclui empreendimentos regionais; filtrar endereço no município de Joinville.",
+      "fonte_comprovacao": "https://www.visitejoinville.com.br/locais-para-eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Joinville"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-064",
+      "cidade": "Florianópolis",
+      "nome": "ACIF",
+      "tipo": "Organizador",
+      "subtipo": "Associação empresarial",
+      "temas": [
+        "Gestão",
+        "Empreendedorismo",
+        "Networking",
+        "Núcleos empresariais"
+      ],
+      "url": "https://acif.org.br/",
+      "agenda_url": "https://acif.org.br/agenda/",
+      "situacao": "Publicações e notícias",
+      "observacao": "A página de agenda nem sempre expõe a programação completa na leitura automatizada. Complementar com notícias e divulgações dos núcleos.",
+      "fonte_comprovacao": "https://acif.org.br/agenda/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-065",
+      "cidade": "Florianópolis",
+      "nome": "ACATE / Centros de Inovação ACATE",
+      "tipo": "Organizador",
+      "subtipo": "Associação e centros de inovação",
+      "temas": [
+        "Tecnologia",
+        "Inteligência artificial",
+        "Empreendedorismo",
+        "Networking"
+      ],
+      "url": "https://www.acate.com.br/",
+      "agenda_url": "https://www.acate.com.br/agenda-de-eventos/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Agenda estadual com atividades presenciais e online. Filtrar as cinco cidades e o local real, incluindo CIA Primavera quando indicado. Não duplicar eventos já encontrados nos polos.",
+      "fonte_comprovacao": "https://www.acate.com.br/agenda-de-eventos/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-066",
+      "cidade": "Florianópolis",
+      "nome": "CDL Florianópolis",
+      "tipo": "Organizador",
+      "subtipo": "Associação empresarial",
+      "temas": [
+        "Liderança",
+        "Oratória",
+        "Vendas",
+        "Gestão"
+      ],
+      "url": "https://www.sympla.com.br/produtor/cdlflorianopolis",
+      "agenda_url": "https://loja.cdlflorianopolis.com.br/",
+      "situacao": "Acesso limitado",
+      "observacao": "Catálogo de cursos e perfil de produtora localizados. O site institucional retornou erro 502 e houve falha de acesso à loja; usar o perfil da entidade e páginas específicas como apoio.",
+      "fonte_comprovacao": "https://loja.cdlflorianopolis.com.br/produto/cursos/cdl-centro/intensivo-de-oratoria",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-067",
+      "cidade": "Florianópolis",
+      "nome": "UFSC — notícias e extensão",
+      "tipo": "Organizador",
+      "subtipo": "Universidade",
+      "temas": [
+        "Ciência",
+        "Extensão",
+        "Carreira",
+        "Cultura",
+        "Tecnologia"
+      ],
+      "url": "https://noticias.ufsc.br/",
+      "agenda_url": "https://noticias.ufsc.br/",
+      "situacao": "Publicações e notícias",
+      "observacao": "Notícias institucionais divulgam cursos e eventos abertos. Confirmar campus, modalidade e público; algumas capacitações são exclusivas para servidores ou estudantes.",
+      "fonte_comprovacao": "https://noticias.ufsc.br/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-068",
+      "cidade": "Florianópolis",
+      "nome": "UDESC — ESAG",
+      "tipo": "Organizador",
+      "subtipo": "Universidade",
+      "temas": [
+        "Administração",
+        "Gestão pública",
+        "Empreendedorismo",
+        "Extensão"
+      ],
+      "url": "https://www.udesc.br/esag/extensao",
+      "agenda_url": "https://www.udesc.br/esag/agendaesag",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Agenda e ações de extensão. Validar local, inscrição e acesso da comunidade externa.",
+      "fonte_comprovacao": "https://www.udesc.br/esag/agendaesag",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-069",
+      "cidade": "Florianópolis",
+      "nome": "Sapiens Parque",
+      "tipo": "Organizador",
+      "subtipo": "Parque de inovação e espaço",
+      "temas": [
+        "Tecnologia",
+        "Inovação",
+        "Inteligência artificial",
+        "Empreendedorismo"
+      ],
+      "url": "https://www.sapiensparque.sc.gov.br/",
+      "agenda_url": "https://www.sapiensparque.sc.gov.br/eventos/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Agenda própria com eventos e atividades do ecossistema. Confirmar acesso aberto, pois algumas ações são para participantes de programas.",
+      "fonte_comprovacao": "https://www.sapiensparque.sc.gov.br/eventos/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-070",
+      "cidade": "Florianópolis",
+      "nome": "Impact Hub Floripa",
+      "tipo": "Organizador",
+      "subtipo": "Comunidade e coworking",
+      "temas": [
+        "Networking",
+        "Empreendedorismo",
+        "Impacto social",
+        "Inovação"
+      ],
+      "url": "https://floripa.impacthub.net/conheca-o-impact-hub/",
+      "agenda_url": "https://floripa.impacthub.net/unidades/",
+      "situacao": "Publicações e notícias",
+      "observacao": "Consultar divulgações e unidades. A rede também tem endereço em Palhoça; incluir apenas eventos efetivamente realizados em Florianópolis.",
+      "fonte_comprovacao": "https://floripa.impacthub.net/unidades/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-071",
+      "cidade": "Florianópolis",
+      "nome": "Escola do Legislativo — ALESC",
+      "tipo": "Organizador",
+      "subtipo": "Instituição pública",
+      "temas": [
+        "Cidadania",
+        "Educação",
+        "Comunicação",
+        "Gestão pública"
+      ],
+      "url": "https://eventos-escola.alesc.sc.gov.br/event/florianopolis",
+      "agenda_url": "https://eventos-escola.alesc.sc.gov.br/event/florianopolis",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Fonte oficial de eventos. Alguns têm público específico; conferir inscrição e requisitos de participação.",
+      "fonte_comprovacao": "https://eventos-escola.alesc.sc.gov.br/event/florianopolis",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-072",
+      "cidade": "Florianópolis",
+      "nome": "Febracis Florianópolis",
+      "tipo": "Organizador",
+      "subtipo": "Empresa de treinamento",
+      "temas": [
+        "Liderança",
+        "Comunicação",
+        "Desenvolvimento pessoal",
+        "Negócios"
+      ],
+      "url": "https://febracisflorianopolis.com.br/",
+      "agenda_url": "",
+      "situacao": "Publicações e notícias",
+      "observacao": "Fonte comercial de treinamentos e imersões. Confirmar turma, preço e conteúdo; não tratar promessas publicitárias como resultados comprovados.",
+      "fonte_comprovacao": "https://febracisflorianopolis.com.br/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-073",
+      "cidade": "Florianópolis",
+      "nome": "Nova Acrópole — Florianópolis",
+      "tipo": "Organizador",
+      "subtipo": "Organização cultural",
+      "temas": [
+        "Filosofia",
+        "Autoconhecimento",
+        "Cultura",
+        "Voluntariado"
+      ],
+      "url": "https://nova-acropole.org.br/unidades/florianopolis/",
+      "agenda_url": "https://nova-acropole.org.br/agenda/?sede=70",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Consultar também as unidades da cidade no diretório oficial. Verificar a sede de cada atividade e não incluir São José por proximidade. Sem endosso filosófico.",
+      "fonte_comprovacao": "https://nova-acropole.org.br/agenda/?sede=70",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-074",
+      "cidade": "Florianópolis",
+      "nome": "Jo Cintra — Eventos & Concierge",
+      "tipo": "Organizador",
+      "subtipo": "Operadora de apoio a eventos",
+      "temas": [
+        "Congressos",
+        "Networking",
+        "Eventos profissionais"
+      ],
+      "url": "https://eventos.jocintra.com.br/",
+      "agenda_url": "https://eventos.jocintra.com.br/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Canal de apoio e divulgação de congressos. Não atribuir à operadora a organização científica de todos os eventos; identificar o responsável de cada congresso e a cidade.",
+      "fonte_comprovacao": "https://eventos.jocintra.com.br/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-075",
+      "cidade": "Florianópolis",
+      "nome": "CentroSul",
+      "tipo": "Local",
+      "subtipo": "Centro de convenções",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://visite.floripa.br/centro-sul-florianopolis/",
+      "agenda_url": "",
+      "situacao": "Acesso limitado",
+      "observacao": "Local confirmado por portal de destino e página oficial de congresso. O domínio próprio consultado ficou inacessível; agenda própria atual não confirmada.",
+      "fonte_comprovacao": "https://citc.atricon.org.br/local",
+      "tipo_comprovacao": "Fonte de referência",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-076",
+      "cidade": "Florianópolis",
+      "nome": "Majestic Palace Hotel",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.majesticpalace.com.br/eventos-em-florianopolis",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Estrutura para eventos identificada. Não foi localizada uma agenda pública completa; cruzar o nome do local com divulgações dos organizadores.",
+      "fonte_comprovacao": "https://www.majesticpalace.com.br/eventos-em-florianopolis",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-077",
+      "cidade": "Florianópolis",
+      "nome": "Oceania Park Hotel",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.oceaniaparkhotel.com.br/salas-de-evento-florianopolis-bot",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Estrutura para eventos identificada. Não foi localizada uma agenda pública completa; cruzar o nome do local com divulgações dos organizadores.",
+      "fonte_comprovacao": "https://www.oceaniaparkhotel.com.br/salas-de-evento-florianopolis-bot",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-078",
+      "cidade": "Florianópolis",
+      "nome": "Faial Prime Suítes",
+      "tipo": "Local",
+      "subtipo": "Hotel",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://abih-sc.com.br/associados/faial-prime-suites/",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Estrutura para eventos identificada na ficha da associação hoteleira. A fonte é a ABIH-SC; agenda própria não confirmada.",
+      "fonte_comprovacao": "https://abih-sc.com.br/associados/faial-prime-suites/",
+      "tipo_comprovacao": "Fonte de referência",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-079",
+      "cidade": "Florianópolis",
+      "nome": "Costão do Santinho",
+      "tipo": "Local",
+      "subtipo": "Resort e centro de convenções",
+      "temas": [
+        "Eventos corporativos",
+        "Congressos",
+        "Palestras e treinamentos"
+      ],
+      "url": "https://www.costao.com.br/eventos",
+      "agenda_url": "",
+      "situacao": "Local sem agenda localizada",
+      "observacao": "Página oficial de estrutura para eventos. Não equivale a um calendário público; cruzar os anúncios de congressos e treinamentos que utilizam o resort.",
+      "fonte_comprovacao": "https://www.costao.com.br/eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-080",
+      "cidade": "Florianópolis",
+      "nome": "Visite Floripa / Destino Floripa",
+      "tipo": "Canal",
+      "subtipo": "Agenda e diretório regional",
+      "temas": [
+        "Congressos",
+        "Feiras",
+        "Cursos",
+        "Locais e fornecedores"
+      ],
+      "url": "https://visitefloripa.com.br/agenda/",
+      "agenda_url": "https://visitefloripa.com.br/agenda/",
+      "situacao": "Diretório / busca",
+      "observacao": "Calendário regional: contém eventos fora de Florianópolis. Filtrar rigorosamente o município; usar também o diretório de associados para ampliar as fontes.",
+      "fonte_comprovacao": "https://destinofloripa.com.br/associados/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-081",
+      "cidade": "Florianópolis",
+      "nome": "Floripa Conecta",
+      "tipo": "Canal",
+      "subtipo": "Movimento e calendário de eventos",
+      "temas": [
+        "Criatividade",
+        "Inovação",
+        "Negócios",
+        "Networking"
+      ],
+      "url": "https://floripaconecta.com.br/",
+      "agenda_url": "https://floripaconecta.com.br/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Calendário sazonal, concentrado em agosto. Os eventos de terceiros permanecem sob responsabilidade de seus organizadores; acompanhar futuras edições.",
+      "fonte_comprovacao": "https://floripaconecta.com.br/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Cidade de referência do cadastro; conferir o endereço de cada evento."
+    },
+    {
+      "id": "SC-082",
+      "cidade": "Fontes compartilhadas",
+      "nome": "Sebrae Santa Catarina",
+      "tipo": "Organizador",
+      "subtipo": "Instituição de apoio a negócios",
+      "temas": [
+        "Empreendedorismo",
+        "Vendas",
+        "Finanças",
+        "Gestão",
+        "Networking"
+      ],
+      "url": "https://www.sebrae-sc.com.br/",
+      "agenda_url": "https://sc.loja.sebrae.com.br/eventos",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Filtrar cidade, modalidade e data. Há capacitações com diferentes condições de preço e inscrição; verificar cada oferta.",
+      "fonte_comprovacao": "https://sc.loja.sebrae.com.br/eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-083",
+      "cidade": "Fontes compartilhadas",
+      "nome": "Senac Santa Catarina",
+      "tipo": "Organizador",
+      "subtipo": "Formação profissional",
+      "temas": [
+        "Carreira",
+        "Gestão",
+        "Tecnologia",
+        "Comunicação",
+        "Bem-estar"
+      ],
+      "url": "https://portal.sc.senac.br/unidades",
+      "agenda_url": "https://portal.sc.senac.br/cursos",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Catálogo de cursos por unidade e modalidade. Gratuidade depende do programa e dos critérios; não presumir turma disponível em toda cidade.",
+      "fonte_comprovacao": "https://portal.sc.senac.br/cursos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-084",
+      "cidade": "Fontes compartilhadas",
+      "nome": "Sesc Santa Catarina",
+      "tipo": "Organizador",
+      "subtipo": "Instituição de educação e cultura",
+      "temas": [
+        "Bem-estar",
+        "Cultura",
+        "Criatividade",
+        "Educação",
+        "Desenvolvimento pessoal"
+      ],
+      "url": "https://www.sesc-sc.com.br/portal/",
+      "agenda_url": "https://www.sesc-sc.com.br/agenda/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Agenda com filtros de cidade e categoria. Priorizar cursos, oficinas e palestras; confirmar inscrição e eventuais públicos ou preços diferenciados.",
+      "fonte_comprovacao": "https://www.sesc-sc.com.br/agenda/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-085",
+      "cidade": "Fontes compartilhadas",
+      "nome": "FIESC — agenda institucional",
+      "tipo": "Organizador",
+      "subtipo": "Entidade empresarial",
+      "temas": [
+        "Indústria",
+        "Liderança",
+        "Inovação",
+        "Negócios"
+      ],
+      "url": "https://fiesc.com.br/pt-br/eventos",
+      "agenda_url": "https://fiesc.com.br/pt-br/eventos",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Agenda estadual; filtrar as cidades e o endereço do evento. Não confundir eventos institucionais com turmas da Academia de Negócios.",
+      "fonte_comprovacao": "https://fiesc.com.br/pt-br/eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-086",
+      "cidade": "Fontes compartilhadas",
+      "nome": "Academia de Negócios FIESC",
+      "tipo": "Organizador",
+      "subtipo": "Educação executiva",
+      "temas": [
+        "Gestão",
+        "Liderança",
+        "Produtividade",
+        "Estratégia"
+      ],
+      "url": "https://academiadenegocios.fiesc.com.br/calendario/",
+      "agenda_url": "https://academiadenegocios.fiesc.com.br/calendario/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Canal de cursos do sistema FIESC, cadastrado separadamente por ter calendário próprio. Verificar município, modalidade, duração e investimento.",
+      "fonte_comprovacao": "https://academiadenegocios.fiesc.com.br/calendario/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-087",
+      "cidade": "Fontes compartilhadas",
+      "nome": "SENAI Santa Catarina — cursos gratuitos",
+      "tipo": "Organizador",
+      "subtipo": "Formação profissional",
+      "temas": [
+        "Tecnologia",
+        "Qualificação",
+        "Indústria",
+        "Carreira"
+      ],
+      "url": "https://sc.senai.br/editais-gratuidade-senai",
+      "agenda_url": "https://sc.senai.br/editais-gratuidade-senai",
+      "situacao": "Publicações e notícias",
+      "observacao": "Página de editais e resultados de gratuidade. Separar inscrições abertas de listas de aprovados e turmas antigas; respeitar requisitos.",
+      "fonte_comprovacao": "https://sc.senai.br/editais-gratuidade-senai",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-088",
+      "cidade": "Fontes compartilhadas",
+      "nome": "Ailos Educação — antigo Progrid",
+      "tipo": "Organizador",
+      "subtipo": "Programa educacional",
+      "temas": [
+        "Educação financeira",
+        "Empreendedorismo",
+        "Bem-estar",
+        "Competências profissionais"
+      ],
+      "url": "https://www.ailos.coop.br/educacao",
+      "agenda_url": "https://eventos.ailos.coop.br/",
+      "situacao": "Acesso limitado",
+      "observacao": "Programa gratuito, com atividades presenciais e digitais. O site oficial encaminha para a agenda, mas sua listagem dinâmica não foi extraída nesta consulta; verificar datas e cidade no navegador.",
+      "fonte_comprovacao": "https://www.ailos.coop.br/educacao",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-089",
+      "cidade": "Fontes compartilhadas",
+      "nome": "ABRH Santa Catarina e regionais",
+      "tipo": "Organizador",
+      "subtipo": "Associação profissional",
+      "temas": [
+        "Liderança",
+        "Carreira",
+        "Pessoas",
+        "Inteligência artificial",
+        "Networking"
+      ],
+      "url": "https://www.abrhsc.org.br/agenda/",
+      "agenda_url": "https://www.abrhsc.org.br/agenda/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Agenda reúne cursos, eventos e regionais. Filtrar município e condições para não associados.",
+      "fonte_comprovacao": "https://www.abrhsc.org.br/agenda/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-090",
+      "cidade": "Fontes compartilhadas",
+      "nome": "CRA-SC",
+      "tipo": "Organizador",
+      "subtipo": "Conselho profissional",
+      "temas": [
+        "Administração",
+        "Gestão",
+        "Carreira",
+        "Networking"
+      ],
+      "url": "https://crasc.org.br/eventos/",
+      "agenda_url": "https://crasc.org.br/eventos/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "A agenda pode incluir viagens, outros estados e públicos específicos. Incluir apenas atividades nas cidades do radar e conferir requisitos.",
+      "fonte_comprovacao": "https://crasc.org.br/eventos/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-091",
+      "cidade": "Fontes compartilhadas",
+      "nome": "CRC-SC",
+      "tipo": "Organizador",
+      "subtipo": "Conselho profissional",
+      "temas": [
+        "Finanças",
+        "Contabilidade",
+        "Gestão",
+        "Atualização profissional"
+      ],
+      "url": "https://www.crcsc.org.br/",
+      "agenda_url": "https://transparencia.emkt.crcsc.org.br/evento/index?slug=calendario-de-eventos",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Muitas atividades são exclusivamente online. Para este radar, selecionar presenciais ou híbridas nas cinco cidades e confirmar público-alvo.",
+      "fonte_comprovacao": "https://transparencia.emkt.crcsc.org.br/evento/index?slug=calendario-de-eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-092",
+      "cidade": "Fontes compartilhadas",
+      "nome": "IFSC — qualificação profissional",
+      "tipo": "Organizador",
+      "subtipo": "Instituição pública de ensino",
+      "temas": [
+        "Carreira",
+        "Qualificação",
+        "Tecnologia",
+        "Educação"
+      ],
+      "url": "https://www.ifsc.edu.br/pt/qualificacao-profissional",
+      "agenda_url": "https://www.ifsc.edu.br/pt/qualificacao-profissional",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Consultar processos seletivos e turmas por campus. Não presumir unidade ou oferta em toda cidade; priorizar cursos de curta duração e extensão.",
+      "fonte_comprovacao": "https://www.ifsc.edu.br/pt/qualificacao-profissional",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-093",
+      "cidade": "Fontes compartilhadas",
+      "nome": "Entra21",
+      "tipo": "Organizador",
+      "subtipo": "Programa de formação",
+      "temas": [
+        "Tecnologia",
+        "Programação",
+        "Carreira"
+      ],
+      "url": "https://www.entra21.com.br/",
+      "agenda_url": "https://www.entra21.com.br/",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Programa ligado ao ecossistema BLUSOFT; canal de inscrições próprio. A oferta publicada de 2026 inclui Blumenau, Itajaí e Balneário Camboriú. Conferir requisitos e novas turmas.",
+      "fonte_comprovacao": "https://www.entra21.com.br/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-094",
+      "cidade": "Fontes compartilhadas",
+      "nome": "Dale Carnegie — Florianópolis e Litoral",
+      "tipo": "Organizador",
+      "subtipo": "Empresa de treinamento",
+      "temas": [
+        "Oratória",
+        "Liderança",
+        "Vendas",
+        "Relacionamento"
+      ],
+      "url": "https://www.dalecarnegie.com/pt-br/locations/florianopolis",
+      "agenda_url": "https://www.dalecarnegie.com/pt-br/locations/florianopolis",
+      "situacao": "Agenda / catálogo",
+      "observacao": "Página da operação regional e busca de cursos. A localização regional não prova turma em cada cidade; confirmar endereço e formato antes de incluir.",
+      "fonte_comprovacao": "https://www.dalecarnegie.com/pt-br/locations/florianopolis",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-095",
+      "cidade": "Fontes compartilhadas",
+      "nome": "BNI Brasil — busca de grupos",
+      "tipo": "Organizador",
+      "subtipo": "Rede de networking",
+      "temas": [
+        "Networking",
+        "Negócios",
+        "Indicações profissionais"
+      ],
+      "url": "https://bnibrasil.com.br/pt-BR/pesquisaavancadagrupo",
+      "agenda_url": "https://bnibrasil.com.br/pt-BR/pesquisaavancadagrupo",
+      "situacao": "Diretório / busca",
+      "observacao": "Buscar grupos por cidade e conferir reuniões e regras de visita. Participação pode depender de convite, categoria profissional, inscrição ou pagamento.",
+      "fonte_comprovacao": "https://bnibrasil.com.br/pt-BR/pesquisaavancadagrupo",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-096",
+      "cidade": "Fontes compartilhadas",
+      "nome": "Sympla",
+      "tipo": "Canal",
+      "subtipo": "Plataforma de eventos",
+      "temas": [
+        "Cursos",
+        "Palestras",
+        "Workshops",
+        "Imersões",
+        "Networking"
+      ],
+      "url": "https://www.sympla.com.br/eventos",
+      "agenda_url": "https://www.sympla.com.br/eventos",
+      "situacao": "Diretório / busca",
+      "observacao": "Pesquisar cada cidade e categorias de desenvolvimento; usar páginas individuais para validar data, preço, local e organizador. Resultados podem sugerir cidades vizinhas.",
+      "fonte_comprovacao": "https://www.sympla.com.br/eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-097",
+      "cidade": "Fontes compartilhadas",
+      "nome": "Even3",
+      "tipo": "Canal",
+      "subtipo": "Plataforma de eventos",
+      "temas": [
+        "Congressos",
+        "Cursos",
+        "Seminários",
+        "Eventos acadêmicos"
+      ],
+      "url": "https://www.even3.com.br/eventos/",
+      "agenda_url": "https://www.even3.com.br/eventos/",
+      "situacao": "Acesso limitado",
+      "observacao": "A busca usa componentes dinâmicos e pode exigir navegação manual. Páginas individuais de eventos complementam a pesquisa.",
+      "fonte_comprovacao": "https://www.even3.com.br/eventos/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-098",
+      "cidade": "Fontes compartilhadas",
+      "nome": "Doity",
+      "tipo": "Canal",
+      "subtipo": "Plataforma de eventos",
+      "temas": [
+        "Congressos",
+        "Palestras",
+        "Cursos",
+        "Workshops"
+      ],
+      "url": "https://doity.com.br/eventos",
+      "agenda_url": "https://doity.com.br/eventos",
+      "situacao": "Diretório / busca",
+      "observacao": "Usar filtro de cidade, data e área. Confirmar modalidade e elegibilidade em cada página de inscrição.",
+      "fonte_comprovacao": "https://doity.com.br/eventos",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-099",
+      "cidade": "Fontes compartilhadas",
+      "nome": "Eventbrite",
+      "tipo": "Canal",
+      "subtipo": "Plataforma de eventos",
+      "temas": [
+        "Cursos",
+        "Networking",
+        "Conferências",
+        "Comunidades"
+      ],
+      "url": "https://www.eventbrite.com.br/",
+      "agenda_url": "https://www.eventbrite.com.br/",
+      "situacao": "Diretório / busca",
+      "observacao": "Pesquisar as cinco cidades individualmente. Confirmar se a atividade é presencial, híbrida ou apenas online.",
+      "fonte_comprovacao": "https://www.eventbrite.com.br/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-100",
+      "cidade": "Fontes compartilhadas",
+      "nome": "Meetup",
+      "tipo": "Canal",
+      "subtipo": "Plataforma de comunidades",
+      "temas": [
+        "Networking",
+        "Tecnologia",
+        "Idiomas",
+        "Grupos de estudo"
+      ],
+      "url": "https://www.meetup.com/",
+      "agenda_url": "https://www.meetup.com/",
+      "situacao": "Diretório / busca",
+      "observacao": "Configurar a cidade explicitamente: a localização sugerida pela plataforma pode estar errada. Parte do conteúdo e das inscrições pode exigir login.",
+      "fonte_comprovacao": "https://www.meetup.com/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Principal",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    },
+    {
+      "id": "SC-101",
+      "cidade": "Fontes compartilhadas",
+      "nome": "Coworking Brasil — diretório de cidades",
+      "tipo": "Canal",
+      "subtipo": "Diretório de espaços",
+      "temas": [
+        "Coworking",
+        "Networking",
+        "Salas de treinamento"
+      ],
+      "url": "https://coworkingbrasil.org/cidades/",
+      "agenda_url": "https://coworkingbrasil.org/cidades/",
+      "situacao": "Diretório / busca",
+      "observacao": "Fonte de expansão, não agenda. Localizar espaços nas cidades do radar e conferir a atividade no canal do próprio coworking antes de cadastrar eventos.",
+      "fonte_comprovacao": "https://coworkingbrasil.org/cidades/",
+      "tipo_comprovacao": "Fonte oficial",
+      "prioridade": "Complementar",
+      "levantamento_em": "2026-11-08",
+      "abrangencia": [
+        "Balneário Camboriú",
+        "Itajaí",
+        "Blumenau",
+        "Joinville",
+        "Florianópolis"
+      ],
+      "escopo_geografico": "Filtrar a oferta efetivamente realizada nas cidades indicadas."
+    }
+  ]
+}
