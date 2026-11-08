@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T18:27:27.051Z",
+  "updated_at": "2026-11-08T18:28:36.747Z",
   "timezone": "America/Sao_Paulo",
   "scope": "piloto",
   "cities": [
@@ -12,20 +12,21 @@
   ],
   "events": [
     {
-      "id": "20261109-acij-geracao-z",
-      "title": "Liderando a Geração Z",
+      "id": "20261117-acij-oratoria",
+      "title": "Oratória e Apresentações que Geram Impacto",
       "city": "Joinville",
-      "start": "2026-11-09T19:00:00-03:00",
-      "category": "Liderança",
+      "start": "2026-11-17T19:00:00-03:00",
+      "category": "Oratória e comunicação",
       "organizer": "ACIJ",
-      "venue": "Associação Empresarial de Joinville",
-      "description": "Palestra sobre gestão e comunicação entre gerações.",
-      "price_type": "nao_informado",
+      "venue": "ACIJ, Av. Aluísio Pires Condeixa, 2550, Saguaçu",
+      "description": "Curso em 17, 18 e 19 de novembro para desenvolver presença, clareza e apresentações.",
+      "price_type": "pago",
       "registration_status": "Consultar disponibilidade no link oficial",
-      "source_url": "https://www.acij.com.br/",
-      "registration_url": "https://www.acij.com.br/",
+      "source_url": "https://www.acij.com.br/agenda/curso-oratoria-e-apresentacoes-que-geram-impacto-como-falar-com-clareza-presenca-e-seguranca-em-reunioes-apresentacoes-e-palco/",
+      "registration_url": "https://www.acij.com.br/agenda/curso-oratoria-e-apresentacoes-que-geram-impacto-como-falar-com-clareza-presenca-e-seguranca-em-reunioes-apresentacoes-e-palco/",
       "checked_at": "2026-11-08",
-      "format": "presencial"
+      "format": "presencial",
+      "price": "R$ 509 a R$ 779 (conforme vínculo)"
     },
     {
       "id": "20261110-acib-sucessao",
@@ -176,7 +177,7 @@
       "id": "20261126-floripa-inovar",
       "title": "XIII INOVAR SC — Inovação e Impacto Social",
       "city": "Florianópolis",
-      "start": "2026-11-26T09:00:00-03:00",
+      "start": "2026-11-26",
       "category": "Inovação e negócios",
       "organizer": "INOVAR SC / entidades organizadoras",
       "venue": "TJSC e ACATE",
