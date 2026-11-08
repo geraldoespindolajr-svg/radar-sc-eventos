@@ -19,6 +19,7 @@
 <main class="container main">
 <section class="summary" aria-label="Indicadores"><div class="stat"><span>Eventos futuros</span><strong id="count-all">0</strong></div><div class="stat"><span>Gratuitos</span><strong id="count-free">0</strong></div><div class="stat"><span>Pagos</span><strong id="count-paid">0</strong></div><div class="stat"><span>Cidades com eventos</span><strong id="count-cities">0/5</strong></div></section>
 <section class="toolbar" aria-label="Filtros"><strong>Encontre uma oportunidade</strong><div class="grid"><div class="field"><label for="q">Buscar evento ou tema</label><input type="search" id="q" placeholder="Ex.: liderança, IA, vendas"></div><div class="field"><label for="city">Cidade</label><select id="city"><option value="">Todas as cidades</option><option>Balneário Camboriú</option><option>Itajaí</option><option>Blumenau</option><option>Joinville</option><option>Florianópolis</option></select></div><div class="field"><label for="period">Período</label><select id="period"><option value="30">Próximos 30 dias</option><option value="7">Próximos 7 dias</option><option value="90">Próximos 90 dias</option><option value="180">Próximos 180 dias</option><option value="all">Todos os futuros</option></select></div><div class="field"><label for="price">Investimento</label><select id="price"><option value="">Todos</option><option value="gratis">Gratuito</option><option value="pago">Pago</option><option value="nao_informado">Não informado</option></select></div></div><div id="error" role="alert"></div></section>
+<details class="notice" style="margin-top:18px;padding:18px" id="coverage-panel"><summary style="cursor:pointer;font-weight:700;color:#181934">Cobertura e limitações desta pesquisa</summary><p id="coverage-text" style="font-size:12px;margin-bottom:0">Consulte as fontes antes de participar.</p></details>
 <div class="row-heading"><div><h2>Próximos eventos</h2><p id="match-text">Consultando a agenda...</p></div></div>
 <section class="cardgrid" id="events" aria-live="polite"></section>
 <section id="empty" class="notice" hidden><strong>Nenhum evento verificado neste filtro.</strong><span id="empty-detail">A agenda será preenchida a partir das pesquisas com fonte oficial. Consulte também o mapa de fontes para explorar os organizadores.</span></section>
@@ -32,15 +33,16 @@ const cards=$('events'),empty=$('empty');
 let events=[],status='ok';
 const tz='America/Sao_Paulo';
 const text=(v,d='Não informado')=>typeof v==='string'&&v.trim()?v.trim():d;
-const dval=v=>{const d=new Date(v);return isNaN(d.getTime())?null:d};
+const dval=(v,end=false)=>{if(!v)return null;const s=typeof v==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v)?v+(end?'T23:59:59-03:00':'T00:00:00-03:00'):v;const d=new Date(s);return isNaN(d.getTime())?null:d};
 const validUrl=s=>{try{const u=new URL(s);return ['https:','http:'].includes(u.protocol)?u.href:null}catch{return null}};
 const elem=(tag,klass,t)=>{const x=document.createElement(tag);if(klass)x.className=klass;if(t!=null)x.textContent=String(t);return x};
 const add=(parent,child)=>{parent.appendChild(child);return child};
 const fmt=v=>{if(typeof v==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v)){const d=new Date(v+'T12:00:00Z');return new Intl.DateTimeFormat('pt-BR',{dateStyle:'medium',timeZone:tz}).format(d)+' · horário a confirmar'}const d=dval(v);return d?new Intl.DateTimeFormat('pt-BR',{dateStyle:'medium',timeStyle:'short',timeZone:tz}).format(d):text(v,'Data a confirmar')};
 const startOfDay=()=>{const t=new Intl.DateTimeFormat('en-CA',{timeZone:tz,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());return new Date(t+'T00:00:00-03:00')};
+const isCurrent=e=>{const start=dval(e.start||e.date);if(!start)return false;const end=dval(e.end,true);return end?end>=new Date():start>=startOfDay()};
 function render(){
 const now=new Date(),days=$('period').value,city=$('city').value,price=$('price').value,q=$('q').value.toLocaleLowerCase('pt-BR').trim();
-const matches=events.filter(e=>{const d=dval(e.start||e.date);if(!d||d.getTime()<now.getTime()-3600000)return false;if(days!=='all'&&d.getTime()>now.getTime()+Number(days)*86400000)return false;if(city&&e.city!==city)return false;if(price&&e.price_type!==price)return false;const all=[e.title,e.description,e.category,e.organizer,e.city,e.venue].filter(Boolean).join(' ').toLocaleLowerCase('pt-BR');return !q||all.includes(q)}).sort((a,b)=>new Date(a.start||a.date)-new Date(b.start||b.date));
+const matches=events.filter(e=>{const d=dval(e.start||e.date);if(!d||!isCurrent(e))return false;if(days!=='all'&&d.getTime()>now.getTime()+Number(days)*86400000)return false;if(city&&e.city!==city)return false;if(price&&e.price_type!==price)return false;const all=[e.title,e.description,e.category,e.organizer,e.city,e.venue].filter(Boolean).join(' ').toLocaleLowerCase('pt-BR');return !q||all.includes(q)}).sort((a,b)=>new Date(a.start||a.date)-new Date(b.start||b.date));
 cards.replaceChildren();$('match-text').textContent=matches.length+' oportunidade(s) neste filtro';
 for(const e of matches){
 const c=add(cards,elem('article','event'));add(c,elem('span','kicker',text(e.category,'Desenvolvimento')));add(c,elem('h3','',text(e.title)));
@@ -48,7 +50,10 @@ if(e.description)add(c,elem('p','desc',e.description));
 const tags=add(c,elem('div','details'));add(tags,elem('span','pill',text(e.city)));
 if(e.price_type==='gratis')add(tags,elem('span','pill free','Gratuito'));else if(e.price_type==='pago')add(tags,elem('span','pill paid',text(e.price,'Pago')));else add(tags,elem('span','pill','Preço não informado'));
 const m=add(c,elem('div','meta'));add(m,elem('div','', 'Data: '+fmt(e.start||e.date)));add(m,elem('div','','Local: '+text(e.venue)));add(m,elem('div','','Organização: '+text(e.organizer)));
+if(e.end)add(m,elem('div','','Até: '+fmt(e.end)));
 if(e.registration_status)add(m,elem('div','','Inscrição: '+e.registration_status));
+if(e.checked_at)add(m,elem('div','','Verificado em: '+e.checked_at.split('-').reverse().join('/')));
+if(e.verification_status==='anuncio_a_reconfirmar')add(tags,elem('span','pill','Anúncio a reconfirmar'));
 const url=validUrl(e.registration_url||e.source_url||e.url);if(url){const a=add(c,elem('a','action','Conferir evento e inscrição'));a.href=url;a.target='_blank';a.rel='noopener noreferrer'}
 if(e.source_url&&e.registration_url&&e.source_url!==e.registration_url&&validUrl(e.source_url)){const a=add(c,elem('a','secondary','Fonte da verificação'));a.href=e.source_url;a.target='_blank';a.rel='noopener noreferrer'}
 }
@@ -57,9 +62,10 @@ $('empty-detail').textContent=status==='empty'?'A primeira pesquisa ainda não f
 }
 async function load(){
 try{const response=await fetch('/eventos.json',{cache:'no-store'});if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();if(!Array.isArray(data.events))throw new Error('Formato da agenda inválido');events=data.events.filter(x=>x&&typeof x==='object');status=events.length?'ok':'empty';
-const live=events.filter(x=>{const d=dval(x.start||x.date);return d&&d>=new Date(Date.now()-3600000)});
+const live=events.filter(isCurrent);
 $('count-all').textContent=live.length;$('count-free').textContent=live.filter(e=>e.price_type==='gratis').length;$('count-paid').textContent=live.filter(e=>e.price_type==='pago').length;$('count-cities').textContent=new Set(live.map(e=>e.city).filter(Boolean)).size+'/5';
 $('last-update').textContent=data.updated_at?(data.scope==='piloto'?'Pesquisa piloto — cobertura parcial: ':'Última pesquisa publicada: ')+fmt(data.updated_at):'Aguardando primeira pesquisa e publicação verificadas.';
+const coverage=data.coverage||{};const failed=(coverage.fontes_nao_acessadas||[]).reduce((n,x)=>n+(Array.isArray(x.ids)?x.ids.length:1),0);$('coverage-text').textContent=(coverage.observacao||'Pesquisa de fontes públicas, sem garantia de cobertura total.')+' '+(failed?failed+' cadastros tiveram falha na leitura inicial. ':'')+'Preços ausentes não significam gratuidade. Confirme inscrição, horários e locais; restrições e divergências estão descritas nos cartões.';
 render();
 }catch(ex){$('error').style.display='block';$('error').textContent='Não foi possível consultar a agenda. Acesse o mapa de fontes ou tente novamente mais tarde.';$('match-text').textContent='Agenda indisponível';status='error';render();}}
 for(const id of ['q','city','period','price'])$(id).addEventListener(id==='q'?'input':'change',render);
