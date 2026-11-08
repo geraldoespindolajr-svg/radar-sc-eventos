@@ -36,7 +36,7 @@ const dval=v=>{const d=new Date(v);return isNaN(d.getTime())?null:d};
 const validUrl=s=>{try{const u=new URL(s);return ['https:','http:'].includes(u.protocol)?u.href:null}catch{return null}};
 const elem=(tag,klass,t)=>{const x=document.createElement(tag);if(klass)x.className=klass;if(t!=null)x.textContent=String(t);return x};
 const add=(parent,child)=>{parent.appendChild(child);return child};
-const fmt=v=>{const d=dval(v);return d?new Intl.DateTimeFormat('pt-BR',{dateStyle:'medium',timeStyle:'short',timeZone:tz}).format(d):text(v,'Data a confirmar')};
+const fmt=v=>{if(typeof v==='string'&&/^\d{4}-\d{2}-\d{2}$/.test(v)){const d=new Date(v+'T12:00:00Z');return new Intl.DateTimeFormat('pt-BR',{dateStyle:'medium',timeZone:tz}).format(d)+' · horário a confirmar'}const d=dval(v);return d?new Intl.DateTimeFormat('pt-BR',{dateStyle:'medium',timeStyle:'short',timeZone:tz}).format(d):text(v,'Data a confirmar')};
 const startOfDay=()=>{const t=new Intl.DateTimeFormat('en-CA',{timeZone:tz,year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());return new Date(t+'T00:00:00-03:00')};
 function render(){
 const now=new Date(),days=$('period').value,city=$('city').value,price=$('price').value,q=$('q').value.toLocaleLowerCase('pt-BR').trim();
@@ -59,7 +59,7 @@ async function load(){
 try{const response=await fetch('/eventos.json',{cache:'no-store'});if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();if(!Array.isArray(data.events))throw new Error('Formato da agenda inválido');events=data.events.filter(x=>x&&typeof x==='object');status=events.length?'ok':'empty';
 const live=events.filter(x=>{const d=dval(x.start||x.date);return d&&d>=new Date(Date.now()-3600000)});
 $('count-all').textContent=live.length;$('count-free').textContent=live.filter(e=>e.price_type==='gratis').length;$('count-paid').textContent=live.filter(e=>e.price_type==='pago').length;$('count-cities').textContent=new Set(live.map(e=>e.city).filter(Boolean)).size+'/5';
-$('last-update').textContent=data.updated_at?'Última pesquisa publicada: '+fmt(data.updated_at):'Aguardando primeira pesquisa e publicação verificadas.';
+$('last-update').textContent=data.updated_at?(data.scope==='piloto'?'Pesquisa piloto — cobertura parcial: ':'Última pesquisa publicada: ')+fmt(data.updated_at):'Aguardando primeira pesquisa e publicação verificadas.';
 render();
 }catch(ex){$('error').style.display='block';$('error').textContent='Não foi possível consultar a agenda. Acesse o mapa de fontes ou tente novamente mais tarde.';$('match-text').textContent='Agenda indisponível';status='error';render();}}
 for(const id of ['q','city','period','price'])$(id).addEventListener(id==='q'?'input':'change',render);
