@@ -5,7 +5,7 @@ Projeto **independente** de Marco Zero e de projetos da ZapSign. O design usa co
 Atualização do contrato em 08/11/2026: periodicidade quinzenal e critérios de pesquisa aprofundada. A agenda publicada não é alterada apenas pela mudança de periodicidade.
 
 ## Arquivos e publicação
-- `index.html`: catálogo de fontes monitoradas (101 cadastros na base inicial; consultar o cadastro atual, sem fixar esse total para sempre).
+- `index.html`: central única de fontes e locais, gerada de `fontes.json`. Em 09/11/2026: 162 fontes e 113 locais físicos vinculados. Consultar os totais atuais, sem fixá-los na tarefa.
 - `fontes.json`: fonte de consulta e ampliação do inventário. Chaves: `metadados`, `fontes`. Cada fonte tem `id`, `cidade`, `nome`, `tipo`, `subtipo`, `temas`, `url`, `agenda_url`, `situacao`, `observacao` e `prioridade`.
 - `eventos.html`: agenda visual, lê `eventos.json`.
 - `eventos.json`: dados publicados dos eventos.
@@ -114,3 +114,16 @@ Informar separadamente fontes verificadas, sem agenda, inacessíveis e não cons
 Página de resultados: https://radar-sc-eventos.onrender.com/eventos.html
 
 Na primeira execução de cada mês, além da consulta de eventos, reforçar a descoberta de novas fontes e propor inclusões no cadastro. Nas demais, registrar descobertas sem reconstruir o mapeamento do zero. Não sobrescrever `fontes.json` nem `index.html` automaticamente sem preservar os registros e a estrutura.
+
+
+## Central única — consolidação autorizada em 09/11/2026
+
+O cadastro canônico continua sendo `fontes.json`, na chave `fontes`. Foram preservados todos os 101 IDs SC e campos anteriores, acrescentadas 61 fontes e vinculados os 113 locais do mapeamento físico. Não somar fontes e locais: são métricas diferentes. Os locais já associados a uma fonte foram incorporados a essa ficha, sem duplicar instituições.
+
+Cada fonte pode conter `locais_fisicos`, uma lista de unidades com ID `LOCAL-xxx`, nome, cidade, tipo, ambientes/salas, endereço informado, `fonte_url`, `agenda_url`, evidência, data documental, observações e `rota_consulta`. `fonte_id` identifica a ficha SC correspondente. `papeis` permite que uma instituição seja simultaneamente organizadora e local, preservando o `tipo` principal anterior.
+
+Na consulta de fontes, percorrer também TODAS as unidades em `locais_fisicos`, mesmo que o tipo principal seja Organizador ou a cidade da fonte seja Fontes compartilhadas. Consultar os links da unidade e cruzar seu nome, ambientes e cidade com divulgações dos organizadores. Páginas de locação não confirmam agenda futura. Não registrar unidade como consultada apenas por ler seu cadastro. As mesmas regras de rastreabilidade, acesso, restrições e validação de eventos continuam valendo.
+
+O catálogo público oferece filtros por cidade/unidade, função da fonte, canal de consulta e tipo de espaço, incluindo busca por nomes de salas. As unidades físicas de fontes compartilhadas aparecem ao filtrar a cidade correspondente. O JSON exportado pela página corresponde ao cadastro canônico nesta publicação. Em futuras atualizações autorizadas da base, manter `index.html` e `fontes.json` consistentes no mesmo commit, sem editar uma cópia independente de locais.
+
+Esta consolidação alterou somente fontes, apresentação do catálogo e sua documentação. Não ampliou temas, não modificou eventos nem reconfigurou a periodicidade quinzenal. O mapeamento não equivale a censo de todos os espaços das cidades, agenda auditada, disponibilidade de locação ou endosso dos serviços.
